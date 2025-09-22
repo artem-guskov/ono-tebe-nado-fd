@@ -59,11 +59,11 @@ body {
 .cover {
     background-image: url("../images/cover.jpg");
     position: relative;
-    min-height: 757px; 
+    min-height: 757px;
     display: grid;
     z-index: -2;
     background-size: cover;
-    background-position: center;  
+    background-position: center;
 }
 
 .overlay {
