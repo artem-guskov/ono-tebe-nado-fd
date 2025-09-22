@@ -47,7 +47,7 @@ body {
     text-underline-offset: 3px;
 }
 
-.header__address {
+.address__block {
     list-style: none;
     font-weight: 400;
     font-size: 18px;
@@ -274,7 +274,7 @@ body {
     padding: 0 50px 0 50px;
 }
 
-.address_width {
+.address__block-item {
     max-width: 333px;
     justify-self: end;
     display: flex;
@@ -283,7 +283,7 @@ body {
     text-underline-offset: 3px;
 }
 
-.footer__address {
+.address__block-item-list {
     list-style: none;
     font-weight: 400;
     font-size: 18px;
