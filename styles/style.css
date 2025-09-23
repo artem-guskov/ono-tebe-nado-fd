@@ -37,14 +37,13 @@ body {
     width: 136px;
     height: 105px;
 }
-
 .address {
     max-width: 236px;
     justify-self: end;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-underline-offset: 3px;
+    text-underline-offset: 3px;    
 }
 
 .address__block {
@@ -106,12 +105,10 @@ body {
 
 .cover__description {
     display: flex;
-    position: absolute;
-    top: 657px;
-    left: 51px;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 110px;
+    padding-bottom: 14px;
 }
 
 .cover__description-text {
@@ -122,6 +119,7 @@ body {
     color: #fff;
     word-spacing: 18px;
     align-self: center;
+    margin-left: 51px;
 }
 
 .bet-button {
@@ -132,6 +130,7 @@ body {
     text-transform: uppercase;
     border: #fff 1px solid;
     padding: 12px 31px;
+    margin-right: 50px;
 }
 
 .lots {
@@ -176,21 +175,20 @@ body {
     align-content: center;
     background-size: cover;
     background-position: center;
+    position: relative;
+
 }
 
 .card_type_film {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/card-lot-01.jpg');
-    position: relative;
 }
 
 .card_type_book {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/card-lot-02.jpg');
-    position: relative;
 }
 
 .card_type_picture {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/card-lot-03.jpg');
-    position: relative;
 }
 
 .card__title {
@@ -270,26 +268,11 @@ body {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-    padding: 0 50px 0 50px;
+    padding: 0 50px 82px 50px;
 }
 
 .address__block-item {
     max-width: 333px;
-    justify-self: end;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-underline-offset: 3px;
-}
-
-.address__block-item-list {
-    list-style: none;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24.3px;
-    font-style: normal;
-    margin-right: 84px;
 }
 
 .footer__menu-list {
