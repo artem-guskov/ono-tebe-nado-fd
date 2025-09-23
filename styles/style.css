@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-underline-offset: 3px;    
+    text-underline-offset: 3px;
 }
 
 .address__block {
